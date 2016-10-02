@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e9ef9c711c974f79a40b9284c0beffeb" Name="Diagram1">
+        <EntityTypeShape EntityType="MokitOnlineModel.Cart" Width="1.5" PointX="7.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MokitOnlineModel.Customer" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="MokitOnlineModel.OrderDetail" Width="1.5" PointX="10.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MokitOnlineModel.Order" Width="1.5" PointX="8.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MokitOnlineModel.ProductProperty" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MokitOnlineModel.Product" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MokitOnlineModel.Property" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="MokitOnlineModel.FK_Carts_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_Carts_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_ProductManufacturer_ProductProperties" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_ProductOriginal_ProductProperties" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_ProductProperties_Properties" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_ProductScale_ProductProperties" ManuallyRouted="false" />
+        <AssociationConnector Association="MokitOnlineModel.FK_ProductSerial_ProductProperties" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
